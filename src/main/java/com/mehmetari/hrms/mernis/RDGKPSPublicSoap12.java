@@ -15,11 +15,12 @@ import org.ksoap2.HeaderProperty;
 import org.ksoap2.serialization.*;
 import org.ksoap2.transport.*;
 import org.kxml2.kdom.Element;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-
+@Service
 public class RDGKPSPublicSoap12
 {
     interface RDGIWcfMethod

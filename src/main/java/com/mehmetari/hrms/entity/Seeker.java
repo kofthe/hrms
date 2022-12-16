@@ -35,7 +35,7 @@ public class Seeker extends User {
     @NotNull
     @NotBlank
     @Column(name = "birth_year")
-    private Date birthYear;
+    private int birthYear;
     @NotNull
     @NotBlank
     @Column(name = "identity_number", unique = true,nullable = false)

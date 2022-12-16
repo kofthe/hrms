@@ -5,7 +5,9 @@ import com.mehmetari.hrms.core.utilities.results.Result;
 import com.mehmetari.hrms.core.utilities.results.SuccessResult;
 import com.mehmetari.hrms.dto.request.GetSeekerRequest;
 import com.mehmetari.hrms.mernis.RDGKPSPublicSoap12;
+import org.springframework.stereotype.Service;
 
+@Service
 public class MernisCheckManager  implements MernisCheckService{
 
     RDGKPSPublicSoap12 rdgkpsPublicSoap12;
