@@ -6,6 +6,8 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.PrimaryKeyJoinColumn;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -33,9 +35,8 @@ public class Seeker extends User {
     @Column(name = "last_name")
     private String lastName;
     @NotNull
-    @NotBlank
     @Column(name = "birth_year")
-    private int birthYear;
+    private Integer birthYear;
     @NotNull
     @NotBlank
     @Column(name = "identity_number", unique = true,nullable = false)

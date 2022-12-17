@@ -41,7 +41,7 @@ public class SeekerManager implements SeekerService {
                     + "Lütfen geçerli bir şifre giriniz.");
         }
 
-        if (!isValidPerson(getSeekerRequest).isSuccess()) {
+        if (isValidPerson(getSeekerRequest).isSuccess()) {
             return new ErrorResult("Böyle birisi yok. Lütfen daha sonra tekrar deneyiniz.");
         }
 
@@ -71,7 +71,7 @@ public class SeekerManager implements SeekerService {
         }
 
 
-        return new SuccessDataResult<>("Kullanıcılar Listelendi");
+        return new SuccessDataResult<>(getAllSeekersResponse,"Kullanıcılar Listelendi");
     }
 
 

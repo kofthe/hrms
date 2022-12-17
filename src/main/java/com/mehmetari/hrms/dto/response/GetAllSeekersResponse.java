@@ -11,11 +11,7 @@ public class GetAllSeekersResponse {
 
     private String name;
     private String lastName;
-    private int birthYear;
-    private String identityNumber;
+    private Integer birthYear;
     private String email;
-    private String password;
-    private String repeatPassword;
-
 
 }

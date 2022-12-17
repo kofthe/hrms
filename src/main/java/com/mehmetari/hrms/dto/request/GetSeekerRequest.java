@@ -13,7 +13,7 @@ public class GetSeekerRequest {
 
     private String name;
     private String lastName;
-    private int birthYear;
+    private Integer birthYear;
     private String identityNumber;
     private String email;
     private String password;

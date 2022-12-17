@@ -29,7 +29,7 @@
     <option name="myId2Visible">
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -63,11 +63,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/kofthe/Masaüstü/hrms/hrms/src/main/java/com/mehmetari/hrms",
+    "last_opened_file_path": "/home/kofthe/Masaüstü/hrms/hrms/easywsdl/ksoap2-android-assembly-3.6.4-jar-with-dependencies.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "EasyWSDL_Settings",
+    "spring.configuration.checksum": "105754e634c32c03aa7fdce0573c3343",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671186987221</updated>
       <workItem from="1671186989294" duration="10160000" />
+      <workItem from="1671243343747" duration="1044000" />
     </task>
     <servers />
   </component>
