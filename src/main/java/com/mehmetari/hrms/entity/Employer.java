@@ -37,4 +37,5 @@ public class Employer extends User {
     @Column(name = "is_verified_hrms_worker")
     private Boolean isVerifiedByHrmsWorker;
 
+
 }

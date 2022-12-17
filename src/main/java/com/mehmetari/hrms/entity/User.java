@@ -1,6 +1,7 @@
 package com.mehmetari.hrms.entity;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -21,6 +22,7 @@ public class User {
     @Column(name = "email", unique = true, nullable = false)
     @NotNull
     @NotBlank
+    @Email
     private String email;
     @NotNull
     @NotBlank
