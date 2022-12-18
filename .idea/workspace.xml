@@ -5,28 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e3b50b9-8688-48ad-bf6e-82bbe16921f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/HrmsWorkerVerifiyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/JobPositionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/HrmsWorkerVerifiyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/JobPositionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/dto/request/EmployerRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/dto/request/JobPositionRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/dto/response/GetAllEmployerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/JobPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/repository/JobPositionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/EmployerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/JobPositionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/JobAdvertisementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/JobAdvertisementManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/core/converter/CityConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/core/converter/GeneralJobPositionConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/dto/request/JobAdvertisementRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/GeneralJobPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/JobAdvertisement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/repository/JobAdvertisementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/JobAdvertisementController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/EmployerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/EmployerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/EmployerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/EmployerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/Employer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/repository/EmployerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/repository/EmployerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/abstracts/EmployerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/abstracts/EmployerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/concretes/EmployerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/concretes/EmployerManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/repository/EmployerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/repository/EmployerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/EmployeeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/JobPositionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/JobPositionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/dto/request/JobPositionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/dto/request/JobPositionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/JobPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/JobPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/concretes/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/concretes/JobPositionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/concretes/JobPositionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/dto/request/JobPositionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/dto/request/JobPositionRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/entity/JobPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/entity/JobPosition.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -112,7 +111,14 @@
       <workItem from="1671186989294" duration="10160000" />
       <workItem from="1671243343747" duration="1044000" />
       <workItem from="1671301389146" duration="194000" />
-      <workItem from="1671301648808" duration="5674000" />
+      <workItem from="1671301648808" duration="10513000" />
+      <workItem from="1671325394030" duration="57000" />
+      <workItem from="1671325474927" duration="1075000" />
+      <workItem from="1671326676714" duration="766000" />
+      <workItem from="1671327523733" duration="1321000" />
+      <workItem from="1671328991813" duration="280000" />
+      <workItem from="1671329687164" duration="457000" />
+      <workItem from="1671341638506" duration="45000" />
     </task>
     <servers />
   </component>

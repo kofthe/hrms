@@ -1,25 +1,36 @@
 package com.mehmetari.hrms.entity;
 
 import jakarta.persistence.*;
-import jdk.jfr.DataAmount;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import java.util.Date;
 
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "job_positions")
-public class JobPosition {
+
+public class JobAdvertisement {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
+    @Column(name = "job_advertisement_id")
     private int id;
-    @Column(name = "job_position", unique = true, nullable = false)
-    private String jobPosition;
-    private String jobDescription;
-
+    private String jobAdversimentTitle;
     @Enumerated(EnumType.STRING)
     private GeneralJobPosition generalJobPosition;
+
+    private String jobDescription;
+    @Enumerated(EnumType.STRING)
+    private City city;
+
+    private double minSalary;
+    private double maxSalary;
+
+    private int openPositions;
+
+
+    private String applicationDeadline;
+
 }

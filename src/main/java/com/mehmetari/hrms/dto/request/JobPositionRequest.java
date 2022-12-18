@@ -12,4 +12,6 @@ public class JobPositionRequest {
     private String positionName;
     private String positionDescription;
 
+    private String generalJobPosition;
+
 }
