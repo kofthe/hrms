@@ -41,7 +41,20 @@
     </option>
   </component>
   <component name="JpbToolWindowState">
-    <option name="isToolWindowVisible" value="false" />
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -119,6 +132,9 @@
       <workItem from="1671328991813" duration="280000" />
       <workItem from="1671329687164" duration="457000" />
       <workItem from="1671341638506" duration="45000" />
+      <workItem from="1671395674462" duration="3172000" />
+      <workItem from="1671408962169" duration="705000" />
+      <workItem from="1671409691097" duration="2825000" />
     </task>
     <servers />
   </component>

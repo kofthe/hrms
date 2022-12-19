@@ -26,4 +26,6 @@ public class JobAdvertisementRequest {
 
     private String applicationDeadline;
 
+    private Boolean isActiveAdvertisement;
+
 }
