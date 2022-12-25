@@ -57,6 +57,12 @@
 			<version>3.0.0</version>
 		</dependency>
 
+		<!--Java Mail Sender  -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.5.0-b01</version>
+		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>

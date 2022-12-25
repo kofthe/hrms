@@ -24,7 +24,7 @@ public class JobAdvertisementRequest {
 
     private int openPositions;
 
-    private String applicationDeadline;
+    private Date applicationDeadline;
 
     private Boolean isActiveAdvertisement;
 

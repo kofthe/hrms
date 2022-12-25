@@ -10,6 +10,10 @@
         <module name="hrms" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hrms (1)" target="1.5" />
+      <module name="hrms (2)" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

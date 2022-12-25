@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
+
 @Entity
 @Data
 @AllArgsConstructor
@@ -28,8 +30,11 @@ public class JobAdvertisement {
 
     private int openPositions;
 
-    private String applicationDeadline;
+    private Date applicationDeadline;
 
     private Boolean isActiveAdvertisement;
-
+    private Date relaseDate;
+    @ManyToOne
+    @JoinColumn(name = "employer_id")
+    private Employer employer;
 }
