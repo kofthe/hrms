@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e3b50b9-8688-48ad-bf6e-82bbe16921f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/dto/request/JobAdvertisementRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/dto/request/JobAdvertisementRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/Employer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/JobAdvertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/JobAdvertisement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/EmployerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/EmployerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/JobAdvertisementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/JobAdvertisementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/webapi/controller/EmployerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/webapi/controller/EmployerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/webapi/controller/JobAdvertisementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/webapi/controller/JobAdvertisementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/JobAdvertisementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/JobAdvertisementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/JobAdvertisementManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/JobAdvertisementManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/repository/JobAdvertisementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/repository/JobAdvertisementRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +134,7 @@
       <workItem from="1671747766678" duration="1690000" />
       <workItem from="1671775310457" duration="2657000" />
       <workItem from="1671786170886" duration="6000" />
-      <workItem from="1671939267838" duration="1059000" />
+      <workItem from="1671939267838" duration="2085000" />
     </task>
     <servers />
   </component>

@@ -62,11 +62,10 @@ public class JobAdvertisementManager implements JobAdvertisementService {
         return new SuccessDataResult<>(activeList ,"Aktif İlanlar Getirildi.");
     }
 
-
-
-
-
-
+    @Override
+    public DataResult<List<JobAdvertisement>> getByEmployerId(int employerId) {
+        return new SuccessDataResult<>(this.jobAdvertisementRepository.getByEmployerId(employerId), "İşveren ilanları getirildi.");
+    }
 
 
 }

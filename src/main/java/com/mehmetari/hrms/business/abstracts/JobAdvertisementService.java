@@ -13,4 +13,8 @@ public interface JobAdvertisementService {
     Result add(JobAdvertisementRequest jobAdvertisementRequest);
 
     DataResult<List<GetActiveJobAdvertisementResponse>> getActive();
+
+    DataResult<List<JobAdvertisement>> getByEmployerId(int employerId);
+
+
 }

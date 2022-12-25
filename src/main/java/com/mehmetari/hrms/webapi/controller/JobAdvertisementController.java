@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
+
 @Slf4j
 @RestController
 @RequestMapping("/jobadvertisement")
@@ -34,6 +37,11 @@ public class JobAdvertisementController {
     @GetMapping("/active")
     public ResponseEntity<DataResult> getActiveList(GetActiveJobAdvertisementResponse getActiveJobAdvertisementResponse){
         return new ResponseEntity<>(jobAdvertisementService.getActive(), HttpStatus.OK);
+    }
+
+    @GetMapping("/listByEmployerId")
+    public ResponseEntity<DataResult> getAdvertisementByEmployerId(int employerId) {
+        return new ResponseEntity<>(jobAdvertisementService.getByEmployerId(employerId), HttpStatus.OK);
     }
 
 }
