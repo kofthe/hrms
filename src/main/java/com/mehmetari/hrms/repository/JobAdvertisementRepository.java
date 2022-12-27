@@ -11,5 +11,5 @@ public interface JobAdvertisementRepository extends JpaRepository<JobAdvertiseme
 
     JobAdvertisement getJobAdvertisementByIdAndEmployer_Id(int jobAdvertisementId, int employerId);
 
-    List<JobAdvertisement> getByEmployerId(int userId);
+    List<JobAdvertisement> getByEmployerId(int id);
 }

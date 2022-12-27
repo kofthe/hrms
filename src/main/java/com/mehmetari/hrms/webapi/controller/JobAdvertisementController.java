@@ -5,14 +5,13 @@ import com.mehmetari.hrms.core.utilities.results.DataResult;
 import com.mehmetari.hrms.core.utilities.results.Result;
 import com.mehmetari.hrms.dto.request.JobAdvertisementRequest;
 import com.mehmetari.hrms.dto.response.GetActiveJobAdvertisementResponse;
+import com.mehmetari.hrms.dto.response.GetAdvertisementByEmployerId;
+import com.mehmetari.hrms.entity.JobAdvertisement;
 import com.mehmetari.hrms.repository.JobAdvertisementRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -39,9 +38,9 @@ public class JobAdvertisementController {
         return new ResponseEntity<>(jobAdvertisementService.getActive(), HttpStatus.OK);
     }
 
-    @GetMapping("/listByEmployerId")
-    public ResponseEntity<DataResult> getAdvertisementByEmployerId(int employerId) {
-        return new ResponseEntity<>(jobAdvertisementService.getByEmployerId(employerId), HttpStatus.OK);
+    @GetMapping("/listByEmployerId/{id}")
+    public ResponseEntity<DataResult<List<GetAdvertisementByEmployerId>>>getAdvertisementByEmployerId(@PathVariable int id) {
+        return new ResponseEntity<>(jobAdvertisementService.getAdvertisementByEmployerId(id), HttpStatus.OK);
     }
 
 }

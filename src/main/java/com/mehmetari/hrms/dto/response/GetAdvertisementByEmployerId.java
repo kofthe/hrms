@@ -1,24 +1,21 @@
-package com.mehmetari.hrms.dto.request;
+package com.mehmetari.hrms.dto.response;
 
 import com.mehmetari.hrms.entity.City;
-import com.mehmetari.hrms.entity.GeneralJobPosition;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
-import java.util.Date;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class JobAdvertisementRequest {
+public class GetAdvertisementByEmployerId {
     private String jobAdversimentTitle;
     private String generalJobPosition;
 
     private String jobDescription;
-    private String city;
+    private City city;
 
     private double minSalary;
     private double maxSalary;
@@ -30,6 +27,4 @@ public class JobAdvertisementRequest {
     private Boolean isActiveAdvertisement;
 
     private LocalDate relaseDate;
-    private int employerId;
-
 }

@@ -1,17 +1,21 @@
 package com.mehmetari.hrms.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.cglib.core.Local;
 
+import java.time.LocalDate;
 import java.util.Date;
+import java.util.Optional;
 
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-
+@JsonIgnoreProperties
 public class JobAdvertisement {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -30,10 +34,10 @@ public class JobAdvertisement {
 
     private int openPositions;
 
-    private Date applicationDeadline;
+    private LocalDate applicationDeadline;
 
     private Boolean isActiveAdvertisement;
-    private Date relaseDate;
+    private LocalDate relaseDate;
     @ManyToOne
     @JoinColumn(name = "employer_id")
     private Employer employer;

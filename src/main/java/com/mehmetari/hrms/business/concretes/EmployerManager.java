@@ -60,5 +60,10 @@ public class EmployerManager implements EmployerService {
         return new SuccessDataResult<>(getAllEmployerResponse ,"Kullanıcılar Listelendi");
     }
 
+    @Override
+    public Employer getEmployerId(int id) {
+        return employerRepository.findById(id).get();
+    }
+
 
 }
