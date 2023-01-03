@@ -43,4 +43,9 @@ public class JobAdvertisementController {
         return new ResponseEntity<>(jobAdvertisementService.getAdvertisementByEmployerId(id), HttpStatus.OK);
     }
 
+    @PutMapping("/update/{id}")
+    public ResponseEntity<Result> changeAdvertisementStatus(@RequestParam int id, Boolean isActive) {
+        return new ResponseEntity<>(jobAdvertisementService.changeStatus(id, isActive), HttpStatus.OK);
+    }
+
 }

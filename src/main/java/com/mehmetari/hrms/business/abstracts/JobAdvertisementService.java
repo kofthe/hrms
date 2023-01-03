@@ -18,4 +18,9 @@ public interface JobAdvertisementService {
     DataResult<List<GetAdvertisementByEmployerId>> getAdvertisementByEmployerId(int id);
 
 
+
+    Result changeStatus(int id, Boolean isActive);
+
+
+
 }

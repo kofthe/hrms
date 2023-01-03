@@ -109,5 +109,14 @@ public class JobAdvertisementManager implements JobAdvertisementService {
         return new SuccessDataResult<>(getAdvertisementByEmployerIds, "İşveren ilanları getirildi.");
     }
 
+    @Override
+    public Result changeStatus(int id, Boolean isActive) {
+        JobAdvertisement jobAdvertisement = jobAdvertisementRepository.findById(id).get();
+        jobAdvertisement.setIsActiveAdvertisement(isActive);
+        jobAdvertisementRepository.save(jobAdvertisement);
+        return new SuccessResult("İş İlanı Güncellendi. ");
+
+    }
+
 
 }

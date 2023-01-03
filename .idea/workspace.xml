@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e3b50b9-8688-48ad-bf6e-82bbe16921f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/dto/response/GetAdvertisementByEmployerId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/EmployerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/EmployerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/HrmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/HrmsApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/JobAdvertisementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/JobAdvertisementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/EmployerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/EmployerManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/JobAdvertisementManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/JobAdvertisementManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/dto/request/JobAdvertisementRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/dto/request/JobAdvertisementRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/JobAdvertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/JobAdvertisement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/repository/JobAdvertisementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/repository/JobAdvertisementRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/JobAdvertisementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/JobAdvertisementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/abstracts/EmployerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/abstracts/EmployerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/abstracts/JobAdvertisementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/abstracts/JobAdvertisementService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/concretes/EmployerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/concretes/EmployerManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/concretes/JobAdvertisementManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/business/concretes/JobAdvertisementManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/dto/request/JobAdvertisementRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/dto/request/JobAdvertisementRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/entity/Employer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/entity/Employer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/entity/JobAdvertisement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/entity/JobAdvertisement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/repository/JobAdvertisementRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/repository/JobAdvertisementRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/webapi/controller/JobAdvertisementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mehmetari/hrms/webapi/controller/JobAdvertisementController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/manya/OneDrive/Documents/GitHub/hrms/easywsdl/ksoap2-android-assembly-3.6.4-jar-with-dependencies.jar",
+    "last_opened_file_path": "C:/Users/Mehmet/Desktop/Projects/hrms/easywsdl/ksoap2-android-assembly-3.6.4-jar-with-dependencies.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -152,6 +139,11 @@
       <workItem from="1671786170886" duration="6000" />
       <workItem from="1671939267838" duration="2085000" />
       <workItem from="1672028231080" duration="10192000" />
+      <workItem from="1672393647887" duration="2600000" />
+      <workItem from="1672515557893" duration="1038000" />
+      <workItem from="1672653179059" duration="912000" />
+      <workItem from="1672654195666" duration="2539000" />
+      <workItem from="1672770191807" duration="2189000" />
     </task>
     <servers />
   </component>
