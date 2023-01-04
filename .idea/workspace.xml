@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e3b50b9-8688-48ad-bf6e-82bbe16921f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/PhotoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/PhotoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/core/cloudinary/CloudinaryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/core/cloudinary/CloudinaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/core/config/CloudinaryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/CurriculumVitae.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/EducationDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/Languages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/WorkExperience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/repository/PhotoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/PhotoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/HrmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/HrmsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/JobAdvertisementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/JobAdvertisementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/JobAdvertisementManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/JobAdvertisementManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/JobAdvertisementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/webapi/controller/JobAdvertisementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/SeekerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/abstracts/SeekerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/SeekerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/business/concretes/SeekerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/Seeker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mehmetari/hrms/entity/Seeker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +155,9 @@
       <workItem from="1672515557893" duration="1038000" />
       <workItem from="1672653179059" duration="912000" />
       <workItem from="1672654195666" duration="2539000" />
-      <workItem from="1672770191807" duration="2189000" />
+      <workItem from="1672770191807" duration="5514000" />
+      <workItem from="1672821587779" duration="1798000" />
+      <workItem from="1672838082917" duration="15918000" />
     </task>
     <servers />
   </component>

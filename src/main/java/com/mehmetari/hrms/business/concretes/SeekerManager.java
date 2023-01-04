@@ -9,6 +9,7 @@ import com.mehmetari.hrms.entity.Seeker;
 import com.mehmetari.hrms.repository.SeekerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.webjars.NotFoundException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -72,6 +73,11 @@ public class SeekerManager implements SeekerService {
 
 
         return new SuccessDataResult<>(getAllSeekersResponse,"Kullanıcılar Listelendi");
+    }
+
+    @Override
+    public Seeker findSeekerById(int id) {
+        return seekerRepository.findById(id).orElseThrow(() ->new NotFoundException("Seeker Bulunamadı") );
     }
 
 

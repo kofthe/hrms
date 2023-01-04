@@ -2,10 +2,7 @@ package com.mehmetari.hrms.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.mehmetari.hrms.entity.User;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.PrimaryKeyJoinColumn;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
@@ -15,6 +12,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Data
@@ -41,5 +39,10 @@ public class Seeker extends User {
     @NotBlank
     @Column(name = "identity_number", unique = true,nullable = false)
     private String identityNumber;
+
+    @OneToMany
+    private List<CurriculumVitae> curriculumVitaeList;
+    @OneToOne
+    private Photo photo;
 
 }

@@ -4,6 +4,7 @@ import com.mehmetari.hrms.core.utilities.results.DataResult;
 import com.mehmetari.hrms.core.utilities.results.Result;
 import com.mehmetari.hrms.dto.request.GetSeekerRequest;
 import com.mehmetari.hrms.dto.response.GetAllSeekersResponse;
+import com.mehmetari.hrms.entity.Seeker;
 
 import java.util.List;
 
@@ -14,5 +15,5 @@ public interface SeekerService {
 
     DataResult<List<GetAllSeekersResponse>> getAll();
 
-
+    Seeker findSeekerById(int id);
 }
